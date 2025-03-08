@@ -1,172 +1,69 @@
----
-title: How to Write Session Summaries for nok.audio
-description: A guide and template for creating structured session summaries for the nok.audio project
-pubDate: 2025-03-08T13:15:00Z
----
+# IDENTITY AND PURPOSE
 
-# Writing Session Summaries for nok.audio
+You are an AI assistant tasked with creating a comprehensive summary of the current session's activities, learnings, and observations. Your role involves analyzing the session, extracting key insights, and documenting them in a structured format. This summary should be saved as a markdown file within the `docs` directory, with a timestamp-based filename for easy identification and chronological organization.
 
-This guide provides a template for creating well-structured session summaries for the nok.audio project. Follow this format to maintain consistency and enable easy integration with our documentation system.
+# STEPS
 
-## Basic Structure
+1. Review and analyze the entire session context and activities
+2. Extract and categorize:
+   - Key activities performed
+   - Technical learnings and insights gained
+   - Challenges encountered and their solutions
+   - Notable observations or patterns
+   - Areas for future improvement
+3. Create a markdown file in the `docs` directory
+4. Name the file using a timestamp
+5. Structure the content to clearly present all findings
 
-Every session summary should include:
-1. YAML frontmatter with metadata
-2. Key sections describing the session
-3. Optional sections for additional context
+# CONTENT STRUCTURE
 
-## Required Frontmatter
+The summary should include the following main sections:
 
-```yaml
----
-title: Your Session Title
-description: A brief description of what was accomplished
-pubDate: YYYY-MM-DDThh:mm:ssZ  # ISO timestamp when created
----
-```
+1. Session Overview
+   - Brief context of what initiated the session
+   - Main objectives and goals
 
-## Core Sections
+2. Key Activities
+   - Chronological list of major tasks completed
+   - Tools and technologies used
 
-### USER_CONTEXT
-Describe the initial task or problem that needed to be solved. For example:
-```markdown
-# USER_CONTEXT
-Add a new audio visualization component with waveform display.
-```
+3. Technical Learnings
+   - New technical insights gained
+   - Best practices discovered
+   - Code patterns or architectural decisions made
 
-### STATE
-List the current state of components and features:
-```markdown
-# STATE
-- Waveform visualization implemented
-- Audio playback controls working
-- Real-time updates functioning
-- Basic styling applied
-```
+4. Challenges and Solutions
+   - Problems encountered
+   - How they were resolved
+   - Workarounds implemented (if any)
 
-### TESTS
-Document what was tested and results:
-```markdown
-# TESTS
-- ✅ Audio file loading
-- ✅ Waveform rendering
-- ❌ Mobile responsiveness
-- 🟡 Performance optimization needed
-```
+5. Observations and Patterns
+   - Notable patterns or trends
+   - Interesting behaviors or interactions
+   - Performance considerations
 
-### CHANGES
-List specific modifications made:
-```markdown
-# CHANGES
-- Added WaveformVisualizer component
-- Created audio processing utilities
-- Updated main App component
-- Added visualization styles
-```
+6. Future Considerations
+   - Potential improvements
+   - Areas needing further investigation
+   - Technical debt identified
 
-### DEPS
-Document dependencies and versions:
-```markdown
-# DEPS
-- react@18.3.1
-- vite@5.4.2
-- tailwindcss@3.4.1
-- Additional audio processing libraries
-```
+7. Final Thoughts
+   - Overall session effectiveness
+   - Key takeaways and insights
+   - Personal reflections on what worked well or could be improved
+   - Unexpected discoveries or surprises
+   - Ideas sparked during the session
+   - Connection to previous sessions or future work
 
-### INTENT
-Explain the goals and reasoning:
-```markdown
-# INTENT
-- Enhance user experience
-- Provide visual feedback
-- Improve audio interaction
-```
+# OUTPUT INSTRUCTIONS
 
-## Optional Sections
-
-### NEXT_STEPS
-Future tasks or improvements:
-```markdown
-# NEXT_STEPS
-- Add frequency analysis
-- Implement audio effects
-- Optimize for mobile
-```
-
-### ISSUES
-Known issues or limitations:
-```markdown
-# ISSUES
-- Performance issues with large files
-- Limited browser compatibility
-```
-
-## Example Summary
-
-Here's a complete example of a session summary:
-
-```markdown
----
-title: Implement Audio Waveform Visualization
-description: Added interactive waveform display for audio playback
-pubDate: 2025-03-08T13:15:00Z
----
-
-# USER_CONTEXT
-Create a visual waveform display component that shows the audio waveform and current playback position.
-
-# STATE
-- Waveform visualization working
-- Playback position indicator added
-- Click-to-seek implemented
-- Basic styling complete
-
-# TESTS
-- ✅ Waveform renders correctly
-- ✅ Playback position updates
-- ✅ Click-to-seek works
-- ❌ Mobile touch events
-- 🟡 Performance testing needed
-
-# CHANGES
-- Created src/components/WaveformVisualizer.tsx
-- Added src/utils/audioProcessing.ts
-- Updated src/App.tsx with new component
-- Added waveform styles to tailwind config
-
-# DEPS
-- react@18.3.1
-- vite@5.4.2
-- tailwindcss@3.4.1
-- web-audio-api@latest
-
-# INTENT
-- Provide visual feedback during playback
-- Enable intuitive audio navigation
-- Enhance user experience
-
-# NEXT_STEPS
-- Add frequency visualization
-- Implement audio effects
-- Optimize for mobile devices
-
-# ISSUES
-- Large files cause performance issues
-- Safari has inconsistent behavior
-```
-
-## Tips for Good Summaries
-
-1. **Be Specific**: Include version numbers, file paths, and exact changes
-2. **Use Emojis**: ✅ ❌ 🟡 to indicate status clearly
-3. **Keep It Structured**: Use consistent headings and formatting
-4. **Include Context**: Help others understand why changes were made
-5. **Think Future**: Note down next steps and known issues
-
-## Questions?
-
-If you have questions about writing summaries or need help:
-1. Check the project documentation
-2. Open an issue in the repository
-3. Ask in the project discussions
+- Only output Markdown
+- All main sections should be Heading level 1 (#)
+- Subsections should be one heading level higher than their parent section
+- Use bullet points for lists and examples
+- Include code blocks where relevant
+- Filename format: `YYYY-MM-DD-HH-MM-SS.md`
+- Include frontmatter with:
+  - `title`: A brief title for the summary
+  - `description`: A short description of the session, including key learnings and observations
+  - `pubDate`: The date and time the summary was created, in ISO 8601 format (e.g., `YYYY-MM-DDTHH:MM:SS.000Z`)
