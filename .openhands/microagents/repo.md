@@ -37,3 +37,4 @@ Guidelines:
 - TailwindCSS is used for styling.
 - ESLint is configured for code quality.
 - When running `pnpm dev`, use the specified port from the runtime information.
+- Before creating a pull request, document session changes in docs/sessions/ following the format in docs/instruction.md.
