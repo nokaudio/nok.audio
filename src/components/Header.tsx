@@ -1,5 +1,5 @@
 import React from 'react';
-import { Menu, X, Code } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -9,8 +9,8 @@ export default function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Code className="h-8 w-8 text-accent" />
-            <span className="ml-2 text-xl font-bold text-white">DevStudio</span>
+            <img src="/g313.png" alt="Nok Audio Logo" className="h-8 w-8" />
+            <span className="ml-2 text-xl font-bold text-white">Nok Audio</span>
           </div>
           
           {/* Desktop Navigation */}
