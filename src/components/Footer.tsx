@@ -27,7 +27,7 @@ export default function Footer() {
               <a href="#" className="text-gray-400 hover:text-accent">
                 <Github className="h-6 w-6" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-accent">
+              <a href="https://x.com/nokaudio" className="text-gray-400 hover:text-accent">
                 <Twitter className="h-6 w-6" />
               </a>
               <a href="#" className="text-gray-400 hover:text-accent">
