@@ -24,7 +24,7 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Connect</h3>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-accent">
+              <a href="https://github.com/nokaudio" className="text-gray-400 hover:text-accent">
                 <Github className="h-6 w-6" />
               </a>
               <a href="#" className="text-gray-400 hover:text-accent">
