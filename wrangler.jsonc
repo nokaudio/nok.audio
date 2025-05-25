@@ -2,7 +2,7 @@
   "name": "nok-audio",
   "workers_dev": true,
   "compatibility_date": "2025-05-25",
-  "assets: {
+  "assets": {
     "directory": "./dist"
   }
 }
