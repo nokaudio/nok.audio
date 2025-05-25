@@ -1,6 +1,5 @@
 {
   "typescript.tsdk": "node_modules/typescript/lib",
   "npm.packageManager": "pnpm",
-  "github.copilot.agent": true,
-  "github.copilot.agent.confirm": false
+  "chat.tools.autoApprove": true
 }
