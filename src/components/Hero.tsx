@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 export default function Hero() {
   return (
@@ -18,7 +18,27 @@ export default function Hero() {
               <p className="mt-2 text-base text-gray-400 sm:text-lg sm:max-w-xl sm:mx-auto lg:mx-0">
                 Nok derives from the Japanese word for saw, 'NOKOGIRI'.
               </p>
-
+              <div className="mt-6 flex space-x-6 sm:max-w-xl sm:mx-auto lg:mx-0">
+                <a href="https://x.com/nokaudio" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-accent transition-colors">
+                  <span className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
+                      <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path>
+                    </svg>
+                    X
+                  </span>
+                </a>
+                <a href="https://jgsw.booth.pm/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-accent transition-colors">
+                  <span className="flex items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="mr-2">
+                      <rect x="2" y="3" width="20" height="18" rx="2" ry="2"></rect>
+                      <line x1="8" y1="12" x2="16" y2="12"></line>
+                      <line x1="8" y1="16" x2="16" y2="16"></line>
+                      <line x1="8" y1="8" x2="10" y2="8"></line>
+                    </svg>
+                    BOOTH
+                  </span>
+                </a>
+              </div>
             </div>
           </main>
         </div>
