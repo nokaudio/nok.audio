@@ -74,7 +74,7 @@ nok.audio/
 - TypeScriptを使用して型安全性を確保
 - TailwindCSSでスタイリング
 - ESLintでコード品質を維持
-- プルリクエストを作成する前に、`docs/sessions/`にセッションの変更を記録する必要があります（`docs/instruction.md`のフォーマットに従ってください）
+- 新しいセッションを追加するには、`docs/sessions/`ディレクトリに新しいMarkdownファイルを作成します。ファイル名は`YYYY-MM-DD-HH-MM-SS.md`の形式にしてください。
 
 ## ソーシャルメディア
 
