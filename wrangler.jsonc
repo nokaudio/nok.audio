@@ -1,11 +1,5 @@
 {
   "name": "nok-audio",
   "workers_dev": true,
-  "compatibility_date": "2025-05-25",
-  "build": {
-    "command": "npm run build"
-  },
-  "site": {
-    "bucket": "./dist"
-  }
+  "compatibility_date": "2025-05-25"
 }
