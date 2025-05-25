@@ -3,7 +3,7 @@ import Hero from './components/Hero';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 
-function App() {
+const App = () => {
   return (
     <div className="min-h-screen bg-black">
       <Header />
@@ -20,6 +20,6 @@ function App() {
       <Footer />
     </div>
   );
-}
+};
 
 export default App;
