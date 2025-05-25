@@ -78,7 +78,7 @@ nok.audio/
 
 ## ソーシャルメディア
 
-- [X (Twitter)](https://x.com/nokaudio)
+- [X](https://x.com/nokaudio)
 - [BOOTH](https://jgsw.booth.pm/)
 - [GitHub](https://github.com/nokaudio)
 
