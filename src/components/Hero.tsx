@@ -18,7 +18,6 @@ export default function Hero() {
               <p className="mt-2 text-base text-gray-400 sm:text-lg sm:max-w-xl sm:mx-auto lg:mx-0">
                 Nok derives from the Japanese word for saw, 'NOKOGIRI'.
               </p>
-              
               <div className="mt-6 flex space-x-6 sm:max-w-xl sm:mx-auto lg:mx-0">
                 <a href="https://x.com/nokaudio" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-accent transition-colors">
                   <span className="flex items-center">
@@ -40,7 +39,6 @@ export default function Hero() {
                   </span>
                 </a>
               </div>
-              
             </div>
           </main>
         </div>
