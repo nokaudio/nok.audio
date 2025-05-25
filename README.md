@@ -74,7 +74,7 @@ nok.audio/
 - TypeScriptを使用して型安全性を確保
 - TailwindCSSでスタイリング
 - ESLintでコード品質を維持
-- 新しいセッションを追加するには、`docs/sessions/`ディレクトリに新しいMarkdownファイルを作成します。ファイル名は`YYYY-MM-DD-HH-MM-SS.md`の形式にしてください。
+- 新しいセッションを追加するには、`docs/sessions/`ディレクトリに新しいMarkdownファイルを作成します。ファイル名は`YYYY-MM-DD-HH-MM-SS.md`の形式にしてください。詳細は[devin-sandbox](https://github.com/e-jigsaw/devin-sandbox)リポジトリを参照してください。
 
 ## ソーシャルメディア
 
