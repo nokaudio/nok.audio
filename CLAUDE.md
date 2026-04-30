@@ -38,4 +38,4 @@ The app ships as static files. There is no server-side code; `wrangler.jsonc` on
 
 ## Communication
 
-`.github/copilot.prompt.md` sets the house tone: respond in Japanese, terse, no です・ます (くだけた口調). Apply the same to PR titles/bodies and commit messages where natural, while keeping technical identifiers in their original form.
+House tone: respond in Japanese, terse, no です・ます (くだけた口調). Apply the same to PR titles/bodies and commit messages where natural, while keeping technical identifiers in their original form.
